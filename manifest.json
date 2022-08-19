@@ -1,0 +1,14 @@
+{
+  "name": "Spotify YouTube Generator",
+  "description": "Generates Spotify playlists from YouTube videos",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "assets/spotify.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
